@@ -1,0 +1,55 @@
+@import "../abstracts/colors";
+@import "../abstracts/mixins";
+
+.header {
+    @include flexCenter(row);
+    color: $textColor;
+    background: $bgPink;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    @media (max-width: 600px) {
+        @include flexCenter(column)
+    }
+    h1 {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    h2 {
+        text-align: center;
+        background-color: $textColor;
+        color: $border;
+        position: relative;
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 100px;
+        z-index: 1;
+    }
+    .profile {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+        border: 5px solid $border;
+        margin: 1rem;
+        z-index: 1;
+    }
+    .circle {
+        height: 150rem;
+        width: 150rem;
+        position: absolute;
+        bottom: -135rem;
+        background-color: white;
+        opacity: 0.3;
+        border-radius: 50%;
+        z-index: -1;
+        @media (max-width: 600px) {
+            height: 70rem;
+            width: 70rem;
+            top: auto;
+            bottom: -53rem;
+            right: auto;
+        }
+    }
+}

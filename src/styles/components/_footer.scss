@@ -1,0 +1,48 @@
+@import "../abstracts/colors";
+@import "../abstracts/mixins";
+
+#contact {
+    @include flexCenter(column);
+    color: $textColor;
+    background: $bgPink;
+    height: 60vh;
+    margin-top: 5rem;
+    padding: 5rem 0 3rem 0;
+    position: relative;
+    overflow: hidden;
+    .circle {
+        background-color: white;
+        height: 50rem;
+        width: 50rem;
+        position: absolute;
+        top: -10rem;
+        left: -5rem;
+        border-radius: 50%;
+        opacity: 0.3;
+        @media (max-width: 600px) {
+            height: 35rem;
+            width: 35rem;
+            left: -20rem;
+        }
+    }
+    .contactInfo {
+        @include flexCenter(column);
+    }
+    h2 {
+        @include h2;
+        text-align: center;
+        z-index: 1;
+    }
+    p {
+        @include p(0.5rem, 80%);
+        text-align: center;
+        z-index: 1;
+    }
+    a{
+        z-index: 1;
+    }
+    .icon {
+        height: 3rem;
+        padding: 0.5rem;
+    }
+}

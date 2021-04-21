@@ -1,0 +1,26 @@
+@import "../abstracts/mixins";
+@import "../abstracts/colors";
+
+nav {
+    @include flexCenter(row);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+    @media (max-width: 600px) {
+        @include flexCenter(row);
+        font-size: 0.8rem;
+    }
+    a {
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+        text-decoration: none;
+        color: $border;
+        background-color: rgba(255, 255, 255, 0.829);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    }

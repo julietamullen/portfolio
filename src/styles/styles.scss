@@ -1,0 +1,26 @@
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/app";
+@import "./components/about";
+@import "./components/project";
+@import "./components/footer";
+@import "./abstracts/colors";
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+    color: $textColor;
+    }
+
+#root {
+    min-height: 100vh;
+    }
