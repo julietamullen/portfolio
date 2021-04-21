@@ -22,5 +22,9 @@ nav {
         background-color: rgba(255, 255, 255, 0.829);
         border: 1px solid white;
         border-radius: 10px;
+        transition: 400ms;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
     }
     }
