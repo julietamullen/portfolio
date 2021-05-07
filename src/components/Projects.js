@@ -11,7 +11,7 @@ const Projects = () => {
     const projects = [
         {
             title: "Hiragana Flashcards",
-            description: "When learning japanese, knowing hiragana is one of the first steps, and having flashcards for it can come really handy.",
+            description: "When learning japanese, knowing hiragana is one of the first steps, and having flashcards for it can come in really handy.",
             github: "https://github.com/julietamullen/hiragana-flashcards",
             vercel: "https://hiragana-flashcards-seven.vercel.app/",
             img: hiragana,
