@@ -14,7 +14,7 @@ const Header = () => {
             <img src={pic} alt="Profile" className="profile" data-aos="fade-right"/>
             <div className="brief" data-aos="fade-left">
                 <h1>Julieta Mullen</h1>
-                <h2>FRONT END DEVELOPER</h2>
+                <h2>FRONT-END DEVELOPER</h2>
             </div>
             <div className="circle"></div>
         </div>
