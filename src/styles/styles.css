@@ -70,8 +70,8 @@
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
   overflow: hidden;
-  height: 150rem;
-  width: 150rem;
+  height: 250rem;
+  width: 250rem;
   background-color: white;
   opacity: 0.3;
   border-radius: 50%;
@@ -143,6 +143,7 @@ nav a:hover {
 }
 
 .about {
+  padding-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,13 +175,8 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 600px) {
-  .about {
-    padding-top: 5rem;
-  }
-}
-
 .wrapper {
+  padding-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,7 +204,6 @@ nav a:hover {
 @media (max-width: 600px) {
   .wrapper {
     width: 100%;
-    padding-top: 5rem;
   }
 }
 
