@@ -36,20 +36,15 @@
         z-index: 1;
     }
     .circle {
-        height: 150rem;
-        width: 150rem;
         position: absolute;
-        bottom: -135rem;
+        left: 50%;
+        transform: translate(-50%,50%);
+        overflow: hidden;
+        height: 250rem;
+        width: 250rem;
         background-color: white;
         opacity: 0.3;
         border-radius: 50%;
         z-index: -1;
-        @media (max-width: 600px) {
-            height: 70rem;
-            width: 70rem;
-            top: auto;
-            bottom: -53rem;
-            right: auto;
-        }
     }
 }

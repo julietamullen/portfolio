@@ -2,7 +2,7 @@
 @import "../abstracts/mixins";
 
 .about {
-    height: 70vh;
+    padding-top: 5rem;
     @include flexCenter(column);
     p {
         @include p(0.5rem, 80%);
@@ -10,8 +10,5 @@
     h2 {
         @include h2;
         margin-bottom: 2rem;
-    }
-    @media (max-width: 600px) {
-        padding-top: 5rem;
     }
 }

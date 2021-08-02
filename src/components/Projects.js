@@ -5,10 +5,18 @@ import rps from "../assets/rps.jpg"
 import alchimia from "../assets/alchimia.jpg"
 import challenge from "../assets/challenge.jpg"
 import todo from "../assets/todo.jpg"
+import jic from "../assets/jic.jpg"
 
 const Projects = () => {
 
     const projects = [
+        {
+            title: "JIC Web",
+            description: "Juan Ignacio Cali's personal webpage, consisting of 6 sections developed with NextJS.",
+            github: "https://github.com/julietamullen/jic",
+            vercel: "https://www.juanignaciocali.com",
+            img: jic,
+        },
         {
             title: "Hiragana Flashcards",
             description: "When learning japanese, knowing hiragana is one of the first steps, and having flashcards for it can come in really handy.",
