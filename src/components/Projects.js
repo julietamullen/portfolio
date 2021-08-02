@@ -12,7 +12,7 @@ const Projects = () => {
     const projects = [
         {
             title: "JIC Web",
-            description: "Juan Ignacio Cali's personal webpage, consisting of 7 sections developed with NextJS.",
+            description: "Juan Ignacio Cali's personal webpage, consisting of 6 sections developed with NextJS.",
             github: "https://github.com/julietamullen/jic",
             vercel: "https://www.juanignaciocali.com",
             img: jic,
